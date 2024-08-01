@@ -10,6 +10,8 @@ This Turborepo includes the following packages/apps:
 
 ### Apps and Packages
 
+Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+
 #### Apps
 
 - `astro`: an [Astro](https://astro.build/) app
@@ -19,8 +21,6 @@ This Turborepo includes the following packages/apps:
 
 - `ui`: a [Svelte](https://svelte.dev/) component library shared by both `web` and `docs` applications
 - `config-eslint`: `eslint` configurations (includes `eslint-plugin-svelte` and `eslint-config-prettier`)
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
 ### Utilities
 
@@ -33,3 +33,9 @@ This Turborepo has some additional tools already setup for you:
 > [!NOTE]  
 > The [ESLint plugin](https://github.com/ota-meshi/eslint-plugin-astro) for Astro is **community maintained**.
 > The offical [Astro Docs](https://docs.astro.build/en/editor-setup/#eslint) defer to the [plugin's docs](https://ota-meshi.github.io/eslint-plugin-astro/user-guide/).
+
+## 🗺️Roadmap
+
+- [ ] Fork into example with Tailwind
+- [ ] Finish Astro ESLint integration
+- [ ] Svelte 5 bump after RC
