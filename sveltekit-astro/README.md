@@ -12,8 +12,8 @@ This Turborepo includes the following packages/apps:
 
 #### Apps
 
-- `docs`: an [Astro](https://astro.build/) app
-- `web`: a [Sveltekit](https://kit.svelte.dev/) app
+- `astro`: an [Astro](https://astro.build/) app
+- `sveltekit`: a [Sveltekit](https://kit.svelte.dev/) app
 
 #### Packages
 
