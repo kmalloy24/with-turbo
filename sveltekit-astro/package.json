@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-svelte": "^3.2.2",
     "turbo": "^2.0.11"
   },
