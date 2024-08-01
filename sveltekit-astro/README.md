@@ -27,5 +27,9 @@ Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 This Turborepo has some additional tools already setup for you:
 
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
+- [ESLint](https://eslint.org/) for code linting
+
+> [!NOTE]  
+> The [ESLint plugin](https://github.com/ota-meshi/eslint-plugin-astro) for Astro is **community maintained**.
+> The offical [Astro Docs](https://docs.astro.build/en/editor-setup/#eslint) defer to the [plugin's docs](https://ota-meshi.github.io/eslint-plugin-astro/user-guide/).
