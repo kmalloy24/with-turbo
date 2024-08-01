@@ -13,7 +13,11 @@
     "@astrojs/check": "^0.9.1",
     "@astrojs/svelte": "^5.7.0",
     "@repo/ui": "workspace:*",
+    "@repo/eslint-config": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
     "astro": "^4.13.0",
+    "eslint": "^8.57.0",
     "svelte": "^4.2.18",
     "typescript": "^5.5.4"
   },
