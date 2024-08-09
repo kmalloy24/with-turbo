@@ -19,7 +19,7 @@ Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
 #### Packages
 
-- `ui`: a [Svelte](https://svelte.dev/) component library shared by both `web` and `docs` applications
+- `ui`: a [Svelte](https://svelte.dev/) component library shared by both `astro` and `sveltekit` applications
 - `config-eslint`: `eslint` configurations (includes `eslint-plugin-svelte`, `eslint-plugin-astro`, and `eslint-config-prettier`)
 
 > [!NOTE]  
