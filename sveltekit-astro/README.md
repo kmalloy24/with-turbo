@@ -20,7 +20,11 @@ Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 #### Packages
 
 - `ui`: a [Svelte](https://svelte.dev/) component library shared by both `web` and `docs` applications
-- `config-eslint`: `eslint` configurations (includes `eslint-plugin-svelte` and `eslint-config-prettier`)
+- `config-eslint`: `eslint` configurations (includes `eslint-plugin-svelte`, `eslint-plugin-astro`, and `eslint-config-prettier`)
+
+> [!NOTE]  
+> The [ESLint plugin](https://github.com/ota-meshi/eslint-plugin-astro) for Astro is **community maintained**.
+> The offical [Astro Docs](https://docs.astro.build/en/editor-setup/#eslint) defer to the [plugin's docs](https://ota-meshi.github.io/eslint-plugin-astro/user-guide/).
 
 ### Utilities
 
@@ -29,13 +33,3 @@ This Turborepo has some additional tools already setup for you:
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [Prettier](https://prettier.io) for code formatting
 - [ESLint](https://eslint.org/) for code linting
-
-> [!NOTE]  
-> The [ESLint plugin](https://github.com/ota-meshi/eslint-plugin-astro) for Astro is **community maintained**.
-> The offical [Astro Docs](https://docs.astro.build/en/editor-setup/#eslint) defer to the [plugin's docs](https://ota-meshi.github.io/eslint-plugin-astro/user-guide/).
-
-## 🗺️Roadmap
-
-- [ ] Fork into example with Tailwind
-- [ ] Finish Astro ESLint integration
-- [ ] Svelte 5 bump after RC
